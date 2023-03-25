@@ -1,0 +1,32 @@
+{
+    "name": "bringittocode/mop",
+    "description": "Run MYSQL query faster and get result in a reliable way.",
+    "keywords": ["mysql","pdo","mysqli","query","mop","database"],
+    "homepage": "https://github.com/bringittocode/mop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hazeezet",
+            "email": "hazeezet@gmail.com",
+            "role": "owner"
+        },
+        {
+            "name": "Bring it to code",
+            "email": "Bringittocode@gmail.com",
+            "role": "Organisation"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mysql\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "suggest": {
+        "ext-mysqli": "*",
+        "ext-pdo_mysql": "*"
+    }
+}

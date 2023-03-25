@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "9bf7fe82-88b0-4c0e-8810-efd09a05ddec",
+		"name": "cloth api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26365707"
+	},
+	"item": [
+		{
+			"name": "products",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "YW1fbm90X3NlY3VyZV9idXRfdXNlX21lX2FueXdheQ==",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "auth",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://clothing-api.localhost/products",
+					"protocol": "http",
+					"host": [
+						"clothing-api",
+						"localhost"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "oders",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "YW1fbm90X3NlY3VyZV9idXRfdXNlX21lX2FueXdheQ==",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "auth",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://clothing-api.localhost/orders",
+					"protocol": "http",
+					"host": [
+						"clothing-api",
+						"localhost"
+					],
+					"path": [
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "customers",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "YW1fbm90X3NlY3VyZV9idXRfdXNlX21lX2FueXdheQ==",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "auth",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://clothing-api.localhost/customers",
+					"protocol": "http",
+					"host": [
+						"clothing-api",
+						"localhost"
+					],
+					"path": [
+						"customers"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "YW1fbm90X3NlY3VyZV9idXRfdXNlX21lX2FueXdheQ==",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "auth",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
