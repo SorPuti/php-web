@@ -69,3 +69,4 @@ create a base64 string of `am_not_secure_but_use_me_anyway`, pass the string to 
 `base64 string` has value
 
 edit your authentication in `src/components/api/auth`.
+![image](https://user-images.githubusercontent.com/52476329/227703298-032b0356-0911-48af-bddb-fa3a0993ee73.png)
