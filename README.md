@@ -1,5 +1,7 @@
 # PHP clothing api
 
+![image](https://user-images.githubusercontent.com/52476329/227703213-beffcf0a-ea80-409f-80d7-a931e674b2d6.png)
+
 This is a template of an api using PHP and MYSql database
 
 it is based on a cloth company, but can easily be modified to your needs.
